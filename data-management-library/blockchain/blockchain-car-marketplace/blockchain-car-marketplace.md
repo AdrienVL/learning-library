@@ -1,22 +1,25 @@
-# Title of the Lab
+# Car Dealer Marketplace 
 
 ## Introduction
 
-*Describe the lab in one or two sentences, for example:* This lab walks you through the steps to ...
+Deploy a blockchain network consisting of 2 dealerships orgs and 1 admin org on OBP OCI console, configure and import APEX applicatoin to buy and sell cars on marketplace. Track amounts paid w/ built-in tokenization feature.
 
-Estimated Lab Time: -- minutes
+Estimated Lab Time: 90 minutes
 
-### About <Product/Technology> (Optional)
-Enter background information here about the technology/feature or product used in this lab - no need to repeat what you covered in the introduction. Keep this section fairly concise. If you find yourself needing more than to sections/paragraphs, please utilize the "Learn More" section.
+### About Oracle Blockchain Platform (OBP)
+Oracle Blockchain Platform is based on the Hyperledger Fabric project from the Linux Foundation, and it extends the open source version of Hyperledger Fabric in many ways.
+
+As a preassembled PaaS, Oracle Blockchain Platform includes all the dependencies required to support a blockchain network: compute, storage, containers, identity services, event services, and management services. Oracle Blockchain Platform includes the blockchain network console to support integrated operations. This helps you start developing applications within minutes, and enables you to complete a proof of concept in days or weeks rather than months.
 
 ### Objectives
 
 *List objectives for this lab using the format below*
 
 In this lab, you will:
-* Objective 1
-* Objective 2
-* Objective 3
+* Create a permissioned network that consists of 1 founder and 2 partner blockchain instances
+* Scaffold chaincode application from a YAML spec file and write custom code
+* Create, install, and instantiate a chaincode (smart contract) on peer nodes
+* Upload an application template and configure APEX data sources to invoke your blockchain network
 
 ### Prerequisites (Optional)
 
@@ -24,7 +27,10 @@ In this lab, you will:
 
 This lab assumes you have:
 * An Oracle account
-* All previous labs successfully completed
+* [Basic understanding on Oracle Blockchain Platform] (https://docs.oracle.com/en/cloud/paas/blockchain-cloud/usingoci/whats-oracle-blockchain-cloud-service.html)
+* [Familiarity with Go] (https://go.dev/)
+* [Familiarity with Oracle Cloud Infrastructure (OCI)] (https://www.oracle.com/cloud/)
+* [Familiarity with APEX] (https://apex.oracle.com/en/)
 
 
 *This is the "fold" - below items are collapsed by default*
@@ -87,6 +93,6 @@ This lab assumes you have:
 * [URL text 2](http://docs.oracle.com)
 
 ## Acknowledgements
-* **Author** - <Name, Title, Group>
-* **Contributors** -  <Name, Group> -- optional
-* **Last Updated By/Date** - <Name, Month Year>
+* **Author** - <Adrien Lhemann, Cloud Engineer, Blockchain>
+* **Contributors** -  <Teodora Gheorghe, Lokeswara Nushisarva> 
+* **Last Updated By/Date** - <Adrien Lhemann, 12-21>
